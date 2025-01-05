@@ -1,4 +1,3 @@
-import React from "react";
 import CutCornerButton from "../components/CutCornerButton";
 import Hexagon from "../components/Hexagon";
 import Circle from "../components/Circle";

@@ -1,4 +1,3 @@
-import React from "react";
 import CutCornerButton from "../components/CutCornerButton";
 
 const HeaderSection = () => {
