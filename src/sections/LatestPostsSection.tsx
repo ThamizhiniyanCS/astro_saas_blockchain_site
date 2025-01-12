@@ -1,5 +1,4 @@
 import { twMerge } from "tailwind-merge";
-import TextButton from "../components/TextButton";
 import Card from "../components/Card";
 import type { CollectionEntry } from "astro:content";
 import { getPostColorFromCategory } from "../utils/postUtils";
