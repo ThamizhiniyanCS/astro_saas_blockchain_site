@@ -1,4 +1,8 @@
 ---
+import CallToActionSection from "../sections/CallToActionSection";
+import FooterSection from "../sections/FooterSection";
+import HeaderSection from "../sections/HeaderSection";
+import TestimonialsSection from "../sections/TestimonialsSection";
 import "../styles/global.css";
 ---
 
@@ -16,6 +20,10 @@ import "../styles/global.css";
     />
   </head>
   <body>
+    <HeaderSection client:load />
     <slot />
+    <TestimonialsSection client:load />
+    <CallToActionSection client:load />
+    <FooterSection />
   </body>
 </html>

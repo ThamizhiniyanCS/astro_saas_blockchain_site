@@ -67,6 +67,7 @@ const FeaturesCardsSection = () => {
           <div className="flex flex-none gap-8">
             {cardData.map(({ src, alt, title, description, color }) => (
               <div
+                key={title}
                 className="inline-flex transition-all duration-500"
                 style={{
                   transform: `translateX(calc((-100% - 2rem) * ${selectedCardIndex}))`,
